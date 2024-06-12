@@ -1,16 +1,16 @@
 # **Recursive Sparse Gaussian Process Mobility Estimation Demonstration**
 
-## **The problem**
+## **The Problem**
 Continuous estimation of the performance envelope of an air vehicle is a necessary element for long-term autonomy of air 
 vehicles to ensure survivability. This GitHub resource acts as a summary of the 'Real-time Mobility Estimation for 
 Autonomous Rotorcraft to Support Long-term Autonomy' thesis paper authored by Dr. Sarai Sherfield. The paper spans 174 
 pages and therefore may not be easily accessible to all learning styles.
 
-## **The solution**
+## **The Solution**
 The paper demonstrates how rotorcraft power data can be utilized in the machine learning algorithm to estimate all key 
 mobility characteristics for an autonomous rotorcraft, which would support safe operation and awareness. 
 
-The code walks through the process of setting up the Recursive Sparse Gaussian Process given the output of the Sparse 
+The code walks through the process of setting up the Recursive Sparse Gaussian Process (RSGP) given the output of the Sparse 
 Gaussian Process for a given rotorcraft. The RSGP is then shown to exhibit its ability to adapt to multiple realistic 
 scenarios such as:
 * the posterior model and prior model are the same
@@ -18,7 +18,12 @@ scenarios such as:
 * the posterior model contains a higher payload when compared to the prior model
 * the posterior model contains a failed engine when compared to the prior model
 
-## **Set Parameters**
+An example of a Gaussian Process (GP) is shown in the following image. Denote that the GP provides a confidence interval around the estimate that add important information, which would improve safety boundary awareness during flight.
+
+![GP Example](/assets/GP_Example.png)
+GP Example
+
+## **Setting Parameters**
 
 ### **Flight Scenario**
 
