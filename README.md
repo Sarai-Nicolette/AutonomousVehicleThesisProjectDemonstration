@@ -3,8 +3,8 @@
 ## **The Problem**
 
 Continuous estimation of the performance envelope of an air vehicle is a necessary element for long-term autonomy of air
-vehicles to ensure survivability. This GitHub resource acts as a summary of the 'Real-time Mobility Estimation for
-Autonomous Rotorcraft to Support Long-term Autonomy' thesis paper authored by Dr. Sarai Sherfield. The paper spans 174
+vehicles to ensure survivability. This GitHub resource acts as a summary of the ['Real-time Mobility Estimation for
+Autonomous Rotorcraft to Support Long-term Autonomy'](https://repository.gatech.edu/entities/publication/4a762e47-41a1-4693-8967-5bbcbc89a041) thesis paper authored by Dr. Sarai Sherfield. The paper spans 174
 pages and therefore may not be easily accessible to all learning styles.
 
 ## **The Solution**
