@@ -25,7 +25,8 @@ scenarios such as:
 An example of a Gaussian Process (GP) is shown in the following image. Denote that the GP provides a confidence interval
 around the estimate that add important information, which would improve safety boundary awareness during flight.
 
-GP Example
+GP Example:
+
 ![GP Example](/assets/GP_Example.PNG)
 
 ## **Setting Parameters**
