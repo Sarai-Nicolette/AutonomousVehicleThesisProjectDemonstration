@@ -11,7 +11,7 @@ The paper demonstrates how rotorcraft power data can be utilized in the machine 
 mobility characteristics for an autonomous rotorcraft, which would support safe operation and awareness. 
 
 The code walks through the process of setting up the Recursive Sparse Gaussian Process given the output of the Sparse 
-Gaussian Process for a given rotorcraft. The RSGP is then shown to exhibit th ability to adapt to multiple realistic 
+Gaussian Process for a given rotorcraft. The RSGP is then shown to exhibit its ability to adapt to multiple realistic 
 scenarios such as:
 * the posterior model and prior model are the same
 * the posterior model contains a 10% error when compared to the prior model
@@ -60,7 +60,7 @@ There are two rotorcraft engine damage states to choose from:
 
 The **inducing points** for the RSGP can be determined by the using, but it is recommended to not use any number below 8 and nothing above 20. It is set to 14 as default, but different values may work well depending on the number of total observations. {num_ind_points}
 
-The **number of observations** is set to 1000 and determined how many equally spaced points are used to estimate the model during the SGP. {num_obs}
+The **number of observations** is set to 1000 and determines how many equally spaced points are used to estimate the model during the SGP. {num_obs}
 
 The **variance of the observations** and the process are set to the same value for simplification under {var_set}.
 
@@ -70,12 +70,29 @@ The **boolean recursion value** determines whether the recursive portion is run 
 
 Note that you may need to manually include openpyxl in your interpreter. This can be done in PyCharm by going to File-> Settings-> Project Interpreter, clicking the +, and searching for openpyxl to install.
 
-### **Example Outputs**
+## **Example Outputs**
 
 ![Actual Power Chart](/assets/Actual_Power_Chart.png)
+Actual Power Charts
+- HPR - Horsepower Required
+- HPA - Horsepower Available
+- AEO - All Engines Operable
+- OEI - One Engine Inoperable
+
+![Model Baseline Chart](/assets/Model_Baseline_Solution.png)
+Model Baseline Solution
+
+![Model Mismatch Chart](/assets/Model_Mismatch_Solution.png)
+Model Mismatch Solution
+
+![Payload Change Chart](/assets/Payload_Change_Solution.png)
+Payload Change Solution
+
+![Engine Failure Chart](/assets/Engine_Failure_Solution.png)
+Engine Failure Solution
 
 
-### **THANK YOU!**
+## **THANK YOU!**
 
 Thank you for checking out my research project! I did my best to parse through my old code so, it can be organized without breaking anything. 
 I'm sure there are small things I missed that shouldn't impact the function of the code, but if it does, please message me! :)
