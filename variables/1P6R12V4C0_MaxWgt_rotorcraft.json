@@ -1,0 +1,28 @@
+{
+  "rotorcraft_init":
+  {
+    "weight": "6467.0",
+    "weightfuel": "2293",
+    "radius": "12",
+    "chord": "1.07",
+    "n_blades": "2",
+    "cd0": "0.07",
+    "v_tip": "574.0",
+    "flat": "26.0",
+    "rho": "0.002378",
+    "hpa": "731.03",
+    "sfc": "0.47551",
+    "specificrange": "0.379144079",
+    "maxAirspeed": "111",
+    "hpr_length_param": 17.95,
+    "hpr_amp_param": 19.76,
+    "hpa_length_param": 16.97,
+    "hpa_amp_param": 16.88,
+    "hpa_bias_param": 8.65,
+    "hpa_slope_param": 0.009,
+    "model_type": "complex",
+    "interpolate": 1,
+    "engine": "intermediate"
+  }
+
+}
