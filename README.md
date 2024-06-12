@@ -70,6 +70,11 @@ The **boolean recursion value** determines whether the recursive portion is run 
 
 Note that you may need to manually include openpyxl in your interpreter. This can be done in PyCharm by going to File-> Settings-> Project Interpreter, clicking the +, and searching for openpyxl to install.
 
+### **Example Outputs**
+
+![Actual Power Chart](/assets/Actual_Power_Chart.png)
+
+
 ### **THANK YOU!**
 
 Thank you for checking out my research project! I did my best to parse through my old code so, it can be organized without breaking anything. 
