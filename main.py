@@ -7,7 +7,7 @@
 ** Dr. Sarai Sherfield's thesis paper titled "Real-time Mobility       **
 ** Estimation for Autonomous Rotorcraft to Support Long-term Autonomy" **
 **                                                                     **
-** Created by: Dr. Sarai Sherifeld                                     **
+** Created by: Dr. Sarai Sherfield                                     **
 ** Last modified on: 6/3/2024 by Sarai Sherfield                       **
 *************************************************************************
 """
